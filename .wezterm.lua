@@ -1,11 +1,14 @@
 local wezterm = require("wezterm")
 
+-- List of color schemes to rotate through
 local themes = {
 	"Builtin Solarized Light",
+	"Obsidian",
 	"OceanicMaterial",
 	"catppuccin-mocha",
 }
 
+-- Set your default theme
 local default_theme = "Builtin Solarized Light"
 
 -- Pick opacity based on theme
