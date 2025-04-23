@@ -8,7 +8,6 @@ local themes = {
 	"catppuccin-mocha",
 }
 
--- Set your default theme
 local default_theme = "Builtin Solarized Light"
 
 -- Pick opacity based on theme
