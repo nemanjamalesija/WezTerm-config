@@ -6,16 +6,21 @@ local themes = {
 	"Obsidian",
 	"OceanicMaterial",
 	"catppuccin-mocha",
+	"tokyonight-storm",
+	"Spring",
 }
 
+-- Set your default theme
 local default_theme = "Builtin Solarized Light"
 
 -- Pick opacity based on theme
 local function initial_opacity(theme)
 	if theme == "Builtin Solarized Light" then
 		return 1.0
+	elseif theme == "Spring" then
+		return 1.0
 	else
-		return 0.96
+		return 0.95
 	end
 end
 
