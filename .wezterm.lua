@@ -20,7 +20,7 @@ local function initial_opacity(theme)
 	elseif theme == "Spring" then
 		return 1.0
 	else
-		return 0.95
+		return 0.96
 	end
 end
 
