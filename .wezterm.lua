@@ -47,7 +47,6 @@ end
 
 return {
 	window_decorations = "RESIZE",
-	window_padding = { left = 2, right = 2, top = 2, bottom = 1 },
 	enable_tab_bar = true,
 	hide_tab_bar_if_only_one_tab = false,
 	show_new_tab_button_in_tab_bar = true,
