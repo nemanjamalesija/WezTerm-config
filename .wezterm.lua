@@ -3,6 +3,7 @@ local wezterm = require("wezterm")
 -- List of color schemes to rotate through
 local themes = {
 	"Builtin Solarized Light",
+	"gruber-darker",
 	"Obsidian",
 	"OceanicMaterial",
 	"catppuccin-mocha",
@@ -11,7 +12,7 @@ local themes = {
 }
 
 -- Set your default theme
-local default_theme = "Builtin Solarized Light"
+local default_theme = "tokyonight-storm"
 
 -- Pick opacity based on theme
 local function initial_opacity(theme)
@@ -20,7 +21,7 @@ local function initial_opacity(theme)
 	elseif theme == "Spring" then
 		return 1.0
 	else
-		return 0.96
+		return 0.95
 	end
 end
 
