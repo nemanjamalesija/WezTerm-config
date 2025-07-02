@@ -3,16 +3,16 @@ local wezterm = require("wezterm")
 -- List of color schemes to rotate through
 local themes = {
 	"Builtin Solarized Light",
-	"gruber-darker",
-	"Obsidian",
-	"OceanicMaterial",
+	"Spring",
+	-- "gruber-darker",
+	-- "Obsidian",
+	-- "OceanicMaterial",
 	"catppuccin-mocha",
 	"tokyonight-storm",
-	"Spring",
 }
 
 -- Set your default theme
-local default_theme = "tokyonight-storm"
+local default_theme = "Builtin Solarized Light"
 
 -- Pick opacity based on theme
 local function initial_opacity(theme)
@@ -59,9 +59,11 @@ return {
 	use_fancy_tab_bar = true,
 	adjust_window_size_when_changing_font_size = false,
 	font = wezterm.font("RobotoMono Nerd Font"),
-	font_size = 16,
+	font_size = 18,
 	color_scheme = default_theme,
 	window_background_opacity = initial_opacity(default_theme),
+	min_scroll_speed = 10,
+	alternate_buffer_wheel_scroll_speed = 0,
 	colors = {},
 	keys = {
 		{
