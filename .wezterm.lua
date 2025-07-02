@@ -62,9 +62,9 @@ return {
 	font_size = 18,
 	color_scheme = default_theme,
 	window_background_opacity = initial_opacity(default_theme),
-	min_scroll_speed = 10,
 	alternate_buffer_wheel_scroll_speed = 0,
-	colors = {},
+	max_fps = 120,
+	window_close_confirmation = "NeverPrompt",
 	keys = {
 		{
 			key = "t",
